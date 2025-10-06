@@ -1,0 +1,51 @@
+/* Reset dasar */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  height: 80px;
+  width: 100%;
+  background: mediumvioletred;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 100px;
+  color: white;
+}
+
+.logo {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.navbar-item {
+  display: flex;
+  gap: 20px;
+}
+
+.navbar-item a {
+  color: white;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+
+.navbar-item a:hover {
+  color: #60a5fa;
+}
